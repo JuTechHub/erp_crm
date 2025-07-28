@@ -1,0 +1,13 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Start CRM Backend Server",
+      "type": "shell",
+      "command": "cd erp-backend && mvn spring-boot:run",
+      "group": "build",
+      "isBackground": true,
+      "problemMatcher": ["$java"]
+    }
+  ]
+}
